@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Style/style1.css">
+    <link rel="shortcut icon" href="../../Mi Proyecto/Images/Logo IG.PNG" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-title">
+
+                <img src="../Images/Logo IG.PNG" alt="Banner Principal con Logo" />
+            </div>
+            <nav>
+                <ul class="lista">
+                    <li><a href="../../Mi Proyecto/index.html">Inicio</a></li>
+                    <li><a href="personalizadas.html">Servicio Premium</a></li>
+                    <li><a href="colecciones.html">Zapatillas Basics</a></li>
+                    <li><a href="servicio.html">Servicio Custom</a></li>
+                    <li><a href="nosotros.html">Nosotros</a>
+                        <ul>
+                            <li><a href="matias.html">Matias Miño Morelli</a></li>
+                            <li><a href="facundo.html"">Facundo Ballini</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <script src="https://kit.fontawesome.com/8e3afbb123.js" crossorigin="anonymous"></script>
+
+    </header>
+
+<br>
+<br>
+<br>
+
+    <main>
+        <section class="contactUs">
+            <h2>Contactanos: </h2>
+            <br>
+            
+            <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="name">Nombre Completo: </label>
+                <input type="text" name="name" placeholder="Colocar nombre completo"></input><br><br>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" required><br><br>
+                <label for="Asunto">Consulta por: </label>
+                <select name="Asunto">
+                    <option value="Premium">Premium</option>
+                    <option value="Basics">Basics</option>
+                    <option value="Custom">Custom</option>
+                </select><br><br>
+                <label for="Mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="Mensaje" cols="30" rows="10"
+                    placeholder="Dejanos tu mensaje"></textarea><br><br>
+                <label>Queres recibir el Newsletter mensual?: </label>
+                <label for="Si">Si</label>
+                <input type="radio" name="opcion" value="Si" id="Si">
+                <label for="No">No</label>
+                <input type="radio" name="opcion" value="No" id="No"><br><br>
+
+                <input type="submit" value="Enviar"><br><br>
+                <input type="reset" value="Borrar Info">
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footerLogo">
+                <img src="../Images/Logo IG.PNG" alt="Banner Principal con Logo"/>
+            </div>
+            <div class="footerContacto">
+                <p>Localizados en un pequeño estudio en Palermo :3</p>
+                <p>CABA</p>
+                <p>Buenos Aires</p>
+                <p>© Copyright | Established 2021</p>
+
+            </div>
+            <div class="footerRedes">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/fakuma.customs/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
